@@ -1,0 +1,63 @@
+body{
+    background-color: #dfcaca;
+    color: #2b0326;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.conteiner{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.boas-vindas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 70px;
+    gap: 1em;
+}
+
+h1{
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+    font-weight: 800;
+}
+
+input{
+    width: 75%;
+    height: 30px;
+    border: 2px solid #2b0326;
+    border-radius: 10px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #7a3b72;
+}
+
+button{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #eda8e4;
+    padding: 10px;
+}
+
+.mensagem{
+    margin-top: 15px;
+    margin-left: 40px;
+    padding: 30px;
+}
